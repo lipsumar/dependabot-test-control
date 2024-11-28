@@ -15,6 +15,12 @@ Vulnerable dependency, requires patch to fix.
   - has vulnerability, fixed in `3.1.7`
 - latest: `3.1.10`
 
+> [!NOTE]
+> Dependabot PR:
+>
+> - update spec to `^3.1.10` (latest)
+> - update lock to resolve to `3.1.10`
+
 #### `@babel/traverse`
 
 Vulnerable dependency, requires minor to fix.
@@ -23,6 +29,12 @@ Vulnerable dependency, requires minor to fix.
 - yarn lock resolves to `7.22.0`
   - has vulnerability, fixed in `7.23.2`
 - latest: `7.25.9`
+
+> [!NOTE]
+> Dependabot PR:
+>
+> - update spec to `^7.23.2`
+> - update lock to resolve to `7.23.2`
 
 #### `jsonpath-plus`
 
@@ -33,6 +45,12 @@ Vulnerable dependency, requires major to fix.
   - has vulnerability, fixed in `10.0.7`
 - latest: `10.2.0`
 
+> [!NOTE]
+> Dependabot PR:
+>
+> - update spec to `^10.0.7`
+> - update lock to resolve to `10.0.7`
+
 #### `typescript`
 
 Non-vulnerable dependency, not on latest
@@ -40,6 +58,9 @@ Non-vulnerable dependency, not on latest
 - spec: `^5.6.3`
 - yarn lock resolves to `5.6.3`
 - latest: `5.7.2`
+
+> [!NOTE]
+> Dependabot PR: None
 
 ### Transient dependencies
 
@@ -60,6 +81,11 @@ Dependency of `babel-loader`.
   - spec (through direct dependency) `^0.2.16`
   - yarn lock resolves to: `0.2.17`
     - has vulnerability, fixed in `1.4.1`
+  - latest: `3.3.1`
+
+> [!NOTE]
+> Dependabot: Alert created
+> Unable to create PR
 
 #### `cross-spawn`
 
@@ -74,3 +100,8 @@ Vulnerable transient dependency, can be updated without updating the direct depe
   - yarn lock resolves to `7.0.3`
     - has vulnerability, fixed in `7.0.5`
   - latest `7.0.6`
+
+> [!NOTE]
+> Dependabot PR
+>
+> - update lock to resolve to `7.0.6` (latest)
